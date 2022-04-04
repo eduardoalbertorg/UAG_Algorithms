@@ -5,7 +5,7 @@ class DLinkedNode():
         self.prev = None
         self.next = None
 
-class LRUCache(OrderedDict):
+class LRUCache():
     
     def _add_node(self, node):
         # Adds the new node right after the head
